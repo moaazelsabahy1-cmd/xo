@@ -57,6 +57,7 @@ if (turn === "x" && element.innerHTML == "") {
     element.innerHTML = "x";
     turn = "o";
     title.innerHTML = "o";
+    winner();
 } else if (turn === "o" && element.innerHTML == "") {
     element.innerHTML = "o";
     turn = "x";
@@ -64,3 +65,4 @@ if (turn === "x" && element.innerHTML == "") {
     winner();
 }
 }  
+
