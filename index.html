@@ -6,8 +6,20 @@
             <link rel="stylesheet" href="style.css">
     </head>
 <body>
+            <button onclick="computerPlay()" class="computer-btn">
+Computer Move
+</button>
+    <div class="choose">
+<button onclick="choosePlayer('x')">Play as X</button>
+<button onclick="choosePlayer('o')">Play as O</button>
+</div>
+
+<h2 class="title">Choose Player</h2>
+
     <div class="game">
-        <div class="title"
+
+
+        <div class="title1"
         <div><span>X O </span>GAME</div>
     <div class="square" id="item1"onclick="game(this.id)"></div>
     <div class="square" id="item2"onclick="game(this.id)"></div>

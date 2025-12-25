@@ -1,29 +1,79 @@
-.game{
-    width: 255px;
-    text-align: center;
-    font-family: system-ui;
-    color:white;
-    margin:auto;
-    font-weight: 500;
+.game {
+  width: 255px;
+  text-align: center;
+  font-family: system-ui;
+  color: rgb(255, 255, 255);
+  margin: auto;
+  font-weight: 500;
 }
-.title{
-background:#f25 ;  
-padding:5px 0;
-margin:5px 0;
+.title {
+  background: #f25;
+  padding: 5px 0;
+  margin: 5px 0;
+  text-align: center;
 }
-span{
-    color: #fa0;
+.title1 {
+  background: #f25;
+  padding: 5px 0;
+  margin: 5px 0;
 }
-.square{
-    width: 80px;
-    height: 80px;
-    background: #f25;
-    float: left;
-    margin: 2px;
-    font-size:50px;
+span {
+  color: #fa0;
 }
-.square:hover{
-    background: #000;
-    cursor:pointer;
-    
+.square {
+  width: 80px;
+  height: 80px;
+  background: #f25;
+  float: left;
+  margin: 2px;
+  font-size: 50px;
+}
+.square:hover {
+  background: #000;
+  cursor: pointer;
+}
+.choose {
+  width: 200px;
+  padding: 1px;
+  margin: 2px auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 1px;
+}
+
+.choose button {
+  flex: 1;
+  padding: 4px 0;
+  font-size: 15px;
+  font-weight: bold;
+  background: #222;
+  color: #ffffff;
+  border: 1px solid #555;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.choose button:hover {
+  background: #f25;
+  color: #000;
+}
+.title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.computer-btn {
+  padding: 10px 20px;
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 10px auto;
+  display: block;
+  font-size: 16px;
+}
+
+.computer-btn:hover {
+  background: #ff1f5a;
 }
